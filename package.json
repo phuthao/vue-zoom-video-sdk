@@ -1,0 +1,32 @@
+{
+  "name": "videosdk-ui-toolkit-vuejs-sample",
+  "version": "2.1.10-2",
+  "author": "Zoom Video Vue Project",
+  "contributors": [
+    {
+      "name": "Robin Le"
+    }
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@zoom/videosdk-ui-toolkit": "^2.1.10-2",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsrsasign": "^11.1.0",
+    "toastr": "^2.1.4",
+    "uuid": "^9.0.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
+  }
+}
