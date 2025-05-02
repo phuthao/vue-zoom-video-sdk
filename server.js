@@ -9,7 +9,7 @@ const port = 3333;
 app.use(cors());
 
 // API Token Acount JWT has Expired
-const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOm51bGwsImlzcyI6ImNiTXJBOVJMUzJDYkw2dC1Gb3R3LWciLCJleHAiOjE3NDY3ODg2NDksImlhdCI6MTc0NjE4Mzg1MH0.7GPJB9GgEtNK2tXQEgxrwG2zjXZbGw1RBgSTVFjyrXQ"; // Replace with your actual Zoom JWT token
+const token = ""; // Replace with your actual Zoom JWT token
 
 async function getSessions() {
   const apiUrl = "https://api.zoom.us/v2/videosdk/sessions";
